@@ -55,7 +55,7 @@ jobs:
               } ||
               {
                 echo "Repository sudah ada. Building...";
-                cd C:\Users\Lana Dewani\Documents\Senior-Project\senpro-github-action;
+                cd ~/senpro-github-action;
                 git restore .;
                 git pull origin main;
                 echo "Install Package dan Build Project";
