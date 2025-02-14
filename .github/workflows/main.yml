@@ -61,5 +61,5 @@ jobs:
                 echo "Install Package dan Build Project";
                 npm i;
                 npm run build;
-              }
+              } 
           
