@@ -57,9 +57,11 @@ jobs:
                 echo "Repository sudah ada. Building...";
                 mkdir -p ~/senpro/494292/modul02;
                 cd ~/senpro/494292/modul02;
-                cd ~/senpro-github-action;
-                git restore .;
-                git pull origin main;
+                git clone https://github.com/lanafitriadewani/senpro-github-action.git;
+                cd ~/senpro/494292/modul02/senpro-github-action;
+                # cd ~/senpro-github-action;
+                # git restore .;
+                # git pull origin main;
                 echo "Install Package dan Build Project";
                 npm i;
                 npm run build;
